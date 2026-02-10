@@ -57,3 +57,34 @@ footer {
   padding: 15px;
   background: #ddd;
 }
+
+/* ===== Form Styling ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 500px;
+}
+
+button.btn {
+  width: fit-content;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #25D366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background: #128C7E;
+}
+
