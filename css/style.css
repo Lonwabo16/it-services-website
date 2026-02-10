@@ -1,31 +1,37 @@
+/* ===== Whole website background ===== */
 body {
-  background-color: red;
-}
-body {
- background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: Arial, sans-serif;
   color: #333;
 
+  /* Background image */
+  background-image: url("../images/background.jpg");
+  background-size: cover;           /* makes it fill the screen */
+  background-position: center;      /* centers the image */
+  background-repeat: no-repeat;     /* no repeating tiles */
+  background-attachment: fixed;     /* keeps image fixed on scroll */
 }
 
+/* ===== Header styling ===== */
 header {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../IT Pictures.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 80px 20px;
   text-align: center;
-
+  padding: 80px 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);   /* semi-transparent overlay for text readability */
 }
 
+/* Header title */
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* Header tagline */
+header p {
+  font-size: 18px;
+}
+
+/* WhatsApp button */
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -36,13 +42,16 @@ header {
   border-radius: 5px;
 }
 
+/* ===== Sections styling ===== */
 section {
   padding: 30px;
-  background: white;
-  margin: 20px;
+  background: rgba(255, 255, 255, 0.9);  /* semi-transparent so background is visible */
+  margin: 20px auto;
   border-radius: 8px;
+  max-width: 900px;
 }
 
+/* Footer styling */
 footer {
   text-align: center;
   padding: 15px;
