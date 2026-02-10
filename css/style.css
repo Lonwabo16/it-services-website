@@ -6,10 +6,16 @@ body {
 }
 
 header {
-  background: #0a3d62;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
-  padding: 40px;
+  padding: 80px 20px;
   text-align: center;
+}
+
 }
 
 .btn {
