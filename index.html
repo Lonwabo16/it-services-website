@@ -53,6 +53,45 @@
     <p>📍 Location: George-Mosselbay, South Africa</p>
   </section>
 
+  <!-- ===== Create Ticket Section ===== -->
+<section id="ticket">
+  <h2>Create a Service Ticket</h2>
+  <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+    
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="contact">Email / WhatsApp:</label><br>
+    <input type="text" id="contact" name="contact" required><br><br>
+    
+    <label for="service">Service Needed:</label><br>
+    <select id="service" name="service" required>
+      <option value="">--Select a Service--</option>
+      <option value="Windows Installation">Windows Installation</option>
+      <option value="Password Removal">Password Removal</option>
+      <option value="Office Installation">Office Installation</option>
+      <option value="Network Setup">Network Setup</option>
+      <option value="CV Creation">CV Creation</option>
+      <option value="Remote Support">Remote Support</option>
+    </select><br><br>
+    
+    <label for="urgency">Urgency:</label><br>
+    <select id="urgency" name="urgency" required>
+      <option value="">--Select Urgency--</option>
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+      <option value="Critical">Critical</option>
+    </select><br><br>
+    
+    <label for="description">Problem Description:</label><br>
+    <textarea id="description" name="description" rows="4" required></textarea><br><br>
+    
+    <button type="submit" class="btn">Submit Ticket</button>
+  </form>
+</section>
+
+
   <!-- ===== Footer ===== -->
   <footer>
     <p>© 2026 Lonwabo IT Services</p>
